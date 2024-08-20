@@ -1,0 +1,15 @@
+highscoreUpdates
+APP
+ — Yesterday at 21:21
+684896138 : {"level" : 1, "score" : 9.700}
+684896138 : {"level" : 1, "score" : 11.900}
+684896138 : {"level" : 2, "score" : 2.650}
+highscoreUpdates
+APP
+ — Yesterday at 23:00
+679464756 : {"level" : 1, "score" : 6.550}
+679464756 : {"level" : 1, "score" : 10.200}
+highscoreUpdates
+APP
+ — Today at 00:42
+679464756 : {"level" : 3, "score" : 6.100}
