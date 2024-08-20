@@ -1,58 +1,58 @@
 {
-	"lowestScore": 0.000,
-	"highestScore": 5.000,
-	"highestCount": 4,
-	"totalCount": 25,
-	"values": [
-		{
-			"min": 0.0,
-			"max": 0.012,
-			"count": 3
-		},
-		{
-			"min": 0.012,
-			"max": 0.024,
-			"count": 6
-		},
-		{
-			"min": 0.024,
-			"max": 0.036,
-			"count": 5
-		},
-		{
-			"min": 0.036,
-			"max": 0.048,
-			"count": 3
-		},
-		{
-			"min": 0.048,
-			"max": 0.06,
-			"count": 1
-		},
-		{
-			"min": 0.06,
-			"max": 0.071,
-			"count": 2
-		},
-		{
-			"min": 0.071,
-			"max": 0.083,
-			"count": 0
-		},
-		{
-			"min": 0.083,
-			"max": 0.095,
-			"count": 0
-		},
-		{
-			"min": 0.095,
-			"max": 0.107,
-			"count": 0
-		},
-		{
-			"min": 0.107,
-			"max": 0.119,
-			"count": 1
-		}
-	]
+    "lowestScore": 0.0,
+    "highestScore": 0.119,
+    "highestCount": 6,
+    "totalCount": 21,
+    "values": [
+        {
+            "min": 0.0,
+            "max": 0.012,
+            "count": 3
+        },
+        {
+            "min": 0.012,
+            "max": 0.024,
+            "count": 6
+        },
+        {
+            "min": 0.024,
+            "max": 0.036,
+            "count": 5
+        },
+        {
+            "min": 0.036,
+            "max": 0.048,
+            "count": 3
+        },
+        {
+            "min": 0.048,
+            "max": 0.06,
+            "count": 1
+        },
+        {
+            "min": 0.06,
+            "max": 0.071,
+            "count": 2
+        },
+        {
+            "min": 0.071,
+            "max": 0.083,
+            "count": 0
+        },
+        {
+            "min": 0.083,
+            "max": 0.095,
+            "count": 0
+        },
+        {
+            "min": 0.095,
+            "max": 0.107,
+            "count": 0
+        },
+        {
+            "min": 0.107,
+            "max": 0.119,
+            "count": 1
+        }
+    ]
 }

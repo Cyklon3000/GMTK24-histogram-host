@@ -1,8 +1,8 @@
 {
-	"lowestScore": 0.000,
-	"highestScore": 5.000,
-	"highestCount": 4,
-	"totalCount": 25,
+	"lowestScore": 0.0,
+	"highestScore": 0.026,
+	"highestCount": 5,
+	"totalCount": 21,
 	"values": [
 		{
 			"min": 0.0,

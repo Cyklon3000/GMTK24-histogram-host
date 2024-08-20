@@ -2,6 +2,7 @@ import json
 for i in range(1, 4):
     data = None
     with open('level' + str(i) + '.json', 'r') as file:
+        print(file)
         data = json.load(file)
     
     highestCount = 0
