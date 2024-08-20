@@ -1,4 +1,6 @@
 import json
+import pprint
+
 for i in range(1, 4):
     data = None
     with open('level' + str(i) + '.json', 'r') as file:
@@ -17,5 +19,18 @@ for i in range(1, 4):
     data["highestCount"] = highestCount
     data["highestScore"] = highestScore
     data["totalCount"] = totalCount
+    
+    pprint.pprint(data, compact=False)
+    
     with open('level' + str(i) + '.json', 'w') as file:
-        json.dump(data, file)
+        pretty_json_str = pprint.pformat(data, compact=False).replace("'",'"')
+        pretty_json_str = pretty_json_str\
+            .replace('{"highestCount":', '{\n "highestCount":')\
+            .replace('\n "', '\n    "')\
+            .replace('"values": [{', '"values": [\n            {')\
+            .replace('            ', '        ')\
+            .replace(']}', '\n    ]\n}')
+        print(json.dumps(data, indent=4))
+        input("Press Enter to continue...")
+        file.write(pretty_json_str)
+        
