@@ -1,19 +1,58 @@
 {
-	"lowestScore" : 0.000,
-	"highestScore" : 5.000,
-	"highestCount" : 4,
-	"totalCount" : 25,
-	"values": 
-	[
-		{"min" : 0.000, "max" : 0.500, "count" : 4},
-		{"min" : 0.500, "max" : 1.000, "count" : 1},
-		{"min" : 1.000, "max" : 1.500, "count" : 2},
-		{"min" : 1.500, "max" : 2.000, "count" : 3},
-		{"min" : 2.000, "max" : 2.500, "count" : 3},
-		{"min" : 2.500, "max" : 3.000, "count" : 4},
-		{"min" : 3.000, "max" : 3.500, "count" : 4},
-		{"min" : 3.500, "max" : 4.000, "count" : 1},
-		{"min" : 4.000, "max" : 4.500, "count" : 1},
-		{"min" : 4.500, "max" : 5.000, "count" : 2}
+	"lowestScore": 0.000,
+	"highestScore": 5.000,
+	"highestCount": 4,
+	"totalCount": 25,
+	"values": [
+		{
+			"min": 0.0,
+			"max": 0.003,
+			"count": 4
+		},
+		{
+			"min": 0.003,
+			"max": 0.005,
+			"count": 5
+		},
+		{
+			"min": 0.005,
+			"max": 0.008,
+			"count": 5
+		},
+		{
+			"min": 0.008,
+			"max": 0.011,
+			"count": 2
+		},
+		{
+			"min": 0.011,
+			"max": 0.013,
+			"count": 1
+		},
+		{
+			"min": 0.013,
+			"max": 0.016,
+			"count": 0
+		},
+		{
+			"min": 0.016,
+			"max": 0.019,
+			"count": 1
+		},
+		{
+			"min": 0.019,
+			"max": 0.021,
+			"count": 2
+		},
+		{
+			"min": 0.021,
+			"max": 0.024,
+			"count": 0
+		},
+		{
+			"min": 0.024,
+			"max": 0.026,
+			"count": 1
+		}
 	]
 }
