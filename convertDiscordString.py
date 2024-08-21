@@ -68,7 +68,7 @@ for level in scoreData:
     
     highestCount:int = 0
     for playerID in uniquePlayerScores:
-        barIndex = min(int(uniquePlayerScores[scoreEntry['playerID']] / highestScore * 10), 9)
+        barIndex = min(int((uniquePlayerScores[playerID] / highestScore) * 10), 9)
         jsonDict["values"][barIndex]["count"] += 1
         highestCount = max(highestCount, jsonDict["values"][barIndex]["count"])
     
@@ -78,5 +78,10 @@ for level in scoreData:
     pprint(jsonDict)
     
     # Activate when fake histograms are not needed anymore
-    # with open(f"level{level}.json", "w") as file:
-    #     pprint(jsonDict, stream=file)
+    with open(f"level{level}.json", "w") as file:
+        pprint(jsonDict, stream=file)
+    with open(f"level{level}.json", "r") as file:
+        fileContent = file.read()
+    fileContent = fileContent.replace("'", "\"")
+    with open(f"level{level}.json", "w") as file:
+        file = file.write(fileContent)
