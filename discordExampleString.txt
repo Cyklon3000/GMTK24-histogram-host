@@ -124,3 +124,5 @@ highscoreUpdates
 APP
  — Today at 00:42
 679464756 : {"level" : 3, "score" : 6.100}
+1025495681 : {"level" : 1, "score" : 5.700}
+1025495681 : {"level" : 2, "score" : 1.700}
