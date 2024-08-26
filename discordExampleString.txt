@@ -131,3 +131,9 @@ APP
 1025495681 : {"level" : 1, "score" : 7.400}
 531323638 : {"level" : 3, "score" : 6.950}
 531323638 : {"level" : 3, "score" : 7.300}
+10942763 : {"level" : 3, "score" : 0.250}
+highscoreUpdates
+APP
+ — Today at 12:50
+10942763 : {"level" : 3, "score" : 6.950}
+10942763 : {"level" : 3, "score" : 7.300}
